@@ -1,0 +1,64 @@
+PART 1 ---------
+
+ Hello John!
+
+
+ PART 2 ----------
+
+ size of data type int = 4
+ size of data type int = 1
+ size of data type int = 8
+
+ PART 3 ----------
+
+ uchar1 = 255
+ schar1 = -1 uchar1 = 255 is larger
+schar1 = -1 is larger
+uchar1 = 255 is larger
+schar3 = -3
+uchar3 = 509
+254
+
+
+ PART 4 ----------
+
+ Boolean true value = 1
+ Boolean false value = 0
+ Boolean size = 4
+ Using && we get 1
+ Using & we get 0
+ Using ~ we get -2
+ Using ! we get 0
+
+ PART 5 ----------
+
+ shift_char << 1 = 30
+ shift_char >> 1 = 7
+
+ PART 6 ----------
+
+start 0 10 20 0 0 30 0
+
+ Corrected Version = 0 0 10 0 0 40 0
+
+ Corrected Version2 = 10 10 20 10 20 50 10
+
+ size of pointer = 8
+ pointer itself = 3af0a8b4
+
+ PART 7 ----------
+90,80,70,60,50,40,30,20,10,0,
+90,80,70,60,50,40,30,20,10,0,
+
+ PART 8 ----------
+
+ HAL
+
+ ASCII values of AString is 72 65 76
+Byte value is 0
+V Astring with 1 added to every letter 73 66 77
+ HAL<
+
+ PART 9 ----------
+0       10      20      30      40      50      60      70      80      90
+0       10      20      30      40      50      60      70      80      90

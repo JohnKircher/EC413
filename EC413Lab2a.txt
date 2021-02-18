@@ -1,0 +1,36 @@
+Lab2a John Kircher
+--------
+
+Output from first run:
+
+The sorted array is
+	1234
+
+------
+
+Variable count starts in temporary address $t0, count is loaded into $t6 later as a loop counter.  
+
+variable msg starts in arguments address $a0
+
+------
+
+Right before the sort loop call, the program is loading the word from $1 + 44 to $8
+
+However before this line the program also adds constants to signed integers, it also
+loads $t1 with the address of array numbs, and initializes $t0 as a counter
+
+------
+
+With the breakpoint at noswap, when looping through, $t1 which stores the array numbs changes as follows:
+
+0,4,8,c,0,4,8,c,0,4,8,c,0,4,8,c,10
+
+-------
+
+After changing count to 8 the output was:
+
+12345678
+
+Description of Program Changes:
+
+In the .asm file I changed the 4 following the count declaration to an 8.

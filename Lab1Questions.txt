@@ -1,0 +1,24 @@
+Q3
+uchar1 is an unsigned character and schar1 is a signed cahracter, so they have different output values.
+uchar1 is larger than schar1
+I expected the result of -3 because the signed decimal equivalent of FE and FF is -1 and -2 so the sum should be -3.
+I expected the result of 509 becaused the unsigned decimale equivalent of FE and FF is 254 and 255 so the sum should be 509.
+The result was 254.
+
+Q4
+The size of a data type boolean is 4
+
+Q5
+Shifting with i = 1 to the right moved char from 15 to 30
+Shifting with i = 1 to the left moved char from 15 to 7
+Shifting with i > 3 to the left moved char from 15 to 0
+Shifting with i > 7 to the left moved char from 15 to 0
+
+Q6
+Printing the pointer values themselves returns large numbers. %x makes it easier to understand the value because hex is simper for larger numbers.
+The difference between ip and ip+1 is the difference between memory addresses and not simply a single increase in the value in the address.
+
+Q8
+The bye value after the last character is zero. It is zero because there is no data in that location.
+73, 66, 77 for AString
+Adding 60 to last byte results in 'HAL<'

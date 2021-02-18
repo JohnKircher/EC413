@@ -1,0 +1,26 @@
+John Kircher
+BUID: 61489057
+
+Taskl:
+
+CPU being used - Intel(R) Core(TM) i7-9700 CPU @ 3.00Ghz
+Operating frequency of CPU - 980.163 MHz
+CPU Cores - 8
+
+Task2:
+
+Closest time to 1 second: 1.3475 seconds
+
+Task3:
+
+See plots
+
+Task4: 
+
+A good way to get rid of the anomalies is to create an average line of best fit through the points 
+which will ignore the anomalies. Then you can delete data points that are very distant from the trend line. 
+
+Psum1 cycles per element: -6.17
+Psum2 cycles per element:  2.706 
+
+It is different because of the computer being used.
